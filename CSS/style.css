@@ -128,7 +128,7 @@ strong {
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   top: 0;
   /* background-color: #040404; */
-  z-index: 10000;
+  /* z-index: 10000; */
 }
 .logo {
   color: #00bbd0;
@@ -170,6 +170,7 @@ strong {
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
+/* transition text */
 .rainbow-transition {
   background: linear-gradient(
     90deg,
