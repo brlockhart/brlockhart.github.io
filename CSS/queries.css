@@ -5,6 +5,7 @@
   .heading-primary {
     font-size: 4.8rem;
     font-weight: 700;
+    /* color: #ebfdff; */
     color: #002529;
     line-height: 1;
     padding-bottom: 2.4rem;
@@ -227,8 +228,24 @@
   .icon-project-check {
     width: 2.2rem;
   }
+  .modal-text-container {
+    display: block;
+  }
+  .modal-description {
+    margin-bottom: 1.2rem;
+  }
+  .modal-technologies {
+    margin-bottom: 1.2rem;
+  }
+  .modal-img {
+    transform: translateY(-7%) scale(90%);
+  }
+  .project-heading {
+    font-size: 3.2rem;
+    margin: 1.6rem 0 1.6rem 1.6rem;
+  }
   .projects-checklist {
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     justify-items: center;
     margin-bottom: 9.6rem;
   }
@@ -268,13 +285,13 @@
     grid-row: 0;
     justify-self: center;
   }
+
   /* hamburger */
   .main-nav-links {
     position: absolute;
     background-color: hsla(0, 0%, 100%, 0.954);
     top: 0;
     left: 0;
-    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -301,6 +318,8 @@
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
+    /* width: 100%; */
+    /* right: 0; */
   }
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;

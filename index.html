@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lockhart Web Solutions</title>
     <link rel="icon" href="LWS-Images/logo-newest.png" />
-    <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" href="CSS/queries.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,16 +30,17 @@
   </head>
 </html>
 <body id="page-home">
-  TEST CONTENT 2
   <header class="header-container">
     <div class="logo-container">
-      <a href="#page-home"><img class="logo" src="LWS-Images/logo-newest.png" alt="Lockhart web solutions logo" /></a>
+      <a href="#page-home" onclick="scrollAndRemoveHash(event)"
+        ><img class="logo" src="LWS-Images/logo-newest.png" alt="Lockhart web solutions logo"
+      /></a>
     </div>
 
     <ul class="main-nav-links">
-      <li><a class="main-nav-link" href="#aboutme">About me</a></li>
-      <li><a class="main-nav-link" href="#projects">Projects</a></li>
-      <li><a class="main-nav-link" href="#section-contact">Contact</a></li>
+      <li><a class="main-nav-link" href="#aboutme" onclick="scrollAndRemoveHash(event)">About me</a></li>
+      <li><a class="main-nav-link" href="#projects" onclick="scrollAndRemoveHash(event)">Projects</a></li>
+      <li><a class="main-nav-link" href="#section-contact" onclick="scrollAndRemoveHash(event)">Contact</a></li>
     </ul>
 
     <button class="btn-mobile-nav">
@@ -79,7 +80,7 @@
         deployment, and ongoing maintenance.
       </div>
       <div class="cta-contact">
-        <a class="button-link" href="#section-contact">
+        <a class="button-link" href="#section-contact" onclick="scrollAndRemoveHash(event)">
           <button class="button">
             <svg
               xmlns="https://www.w3.org/2000/svg"
@@ -235,9 +236,9 @@
       <div class="modal-grouping">
         <div class="modal-text-container">
           <div class="modal-description">
-            <a class="modal-link" href="https://tribalrites.com/">Tribalrites.com</a> is a project I took on for a local
-            tattoo & piercing business. My responsibilities included integrating the Google Map API and fixing broken
-            links.
+            <a class="modal-link" href="https://tribalrites.com/">Tribalrites.com</a> is a project I completed for a
+            local tattoo & piercing business. My responsibilities included integrating the Google Map API and fixing
+            broken links.
           </div>
           <div class="modal-technologies">
             <p>Technologies: JavaScript, Wordpress, ACF, CSS, PHP</p>

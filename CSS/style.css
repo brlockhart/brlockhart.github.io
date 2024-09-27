@@ -6,7 +6,6 @@ Dark-Main: #002529
 dark grey: #1D1D20
 grey (2 steps lighter): #303036
 
-TEST CONTENT 2
 ***************************/
 
 /**********************************/
@@ -117,6 +116,7 @@ strong {
 /* --------Header-------- */
 /**********************************/
 .header-container {
+  overflow-x: clip;
   position: relative;
   display: flex;
   justify-content: space-between;

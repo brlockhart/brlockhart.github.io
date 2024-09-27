@@ -1,5 +1,5 @@
 "use strict";
-console.log("TEST CONTENT 2");
+
 // ************************************
 // ****** BACKGROUND TRANSITION *******
 // ************************************
@@ -96,6 +96,7 @@ const mainNavLink = document.querySelectorAll(".main-nav-link");
 iconHamburger.addEventListener("click", function () {
   header.classList.add(`nav-open`);
   body.classList.add("body-overflow");
+  // mainNav.style.width = "100%";
 });
 iconX.addEventListener("click", function () {
   header.classList.remove(`nav-open`);
@@ -114,6 +115,23 @@ mainNavLink.forEach((link) => {
   });
 });
 // ************************************
-// ******** FOOTER STUFF *********
+// ******** FOOTER STUFF ********
 // ************************************
 document.getElementById("copyright-year").textContent = new Date().getFullYear() + " Lockhart Web Solutions";
+
+// ************************************
+// ******** URL HASH ADJUST ********
+// ************************************
+function scrollAndRemoveHash(event) {
+  event.preventDefault(); // Prevent the default anchor click behavior
+  const targetID = event.currentTarget.getAttribute("href");
+  const targetElement = document.querySelector(targetID);
+
+  if (targetElement) {
+    // Scroll to the target element
+    targetElement.scrollIntoView({ behavior: "smooth" });
+
+    // Update the URL without the hash
+    history.replaceState(null, null, " ");
+  }
+}
