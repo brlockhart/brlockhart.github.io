@@ -1,5 +1,5 @@
 "use strict";
-
+console.log("TEST CONTENT 2");
 // ************************************
 // ****** BACKGROUND TRANSITION *******
 // ************************************
