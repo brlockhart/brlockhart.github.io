@@ -1,0 +1,320 @@
+/**********************************/
+/* -----Below 1232px (Laptops)----- */
+/**********************************/
+@media (max-width: 77em) {
+  .heading-primary {
+    font-size: 4.8rem;
+    font-weight: 700;
+    /* color: #ebfdff; */
+    color: #002529;
+    line-height: 1;
+    padding-bottom: 2.4rem;
+    margin-top: 2rem;
+  }
+  .hero-text {
+    font-size: 1.6rem;
+    padding: 0 17rem 2rem 17rem;
+  }
+  .statement {
+    font-size: 2.8rem;
+    padding: 13.6rem 20rem 5.6rem 20rem;
+  }
+  .aboutme-text {
+    font-size: 1.8rem;
+    line-height: 1.4;
+  }
+  .button {
+    padding: 1rem 1.3rem;
+    font-size: 1.9rem;
+  }
+  .languages-heading {
+    font-size: 1.8rem;
+  }
+  .checklist-item {
+    font-size: 1.6rem;
+  }
+  .icon-project-check {
+    width: 2.2rem;
+  }
+  .footer-heading {
+    font-size: 4.2rem;
+  }
+}
+/**********************************/
+/* -----Below 1008px (Tablets)----- */
+/**********************************/
+@media (max-width: 63em) {
+  .section-hero {
+    padding: 10.2rem 15rem 4rem 15rem;
+    text-align: center;
+  }
+  .heading-primary {
+    font-size: 3.4rem;
+    font-weight: 700;
+    /* color: #ebfdff; */
+    color: #002529;
+    line-height: 1;
+    padding-bottom: 2.4rem;
+    margin-top: 2rem;
+  }
+  .hero-text {
+    font-size: 1.6rem;
+    padding: 0 10rem 2rem 10rem;
+  }
+  .statement {
+    font-size: 2rem;
+    padding: 10.6rem 15rem 5.6rem 15rem;
+  }
+  .section-aboutme {
+    align-items: center;
+    column-gap: 4.6rem;
+    padding: 5rem 7.6rem 0 7.6rem;
+    width: 90%;
+    margin: 0 auto;
+    border-top: solid 1px hsla(0, 0%, 60%, 0.358);
+  }
+  .aboutme-text {
+    font-size: 1.8rem;
+    line-height: 1.4;
+  }
+  .button {
+    padding: 1rem 1.3rem;
+    font-size: 1.9rem;
+  }
+  .languages-heading {
+    font-size: 1.8rem;
+  }
+  .section-projects {
+    width: 90%;
+  }
+  .checklist-item {
+    font-size: 1.6rem;
+  }
+  .icon-project-check {
+    width: 2.2rem;
+  }
+  .projects-checklist {
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-bottom: 9.6rem;
+  }
+  .grid {
+    column-gap: 3.4rem;
+  }
+  .footer-heading {
+    font-size: 4.2rem;
+  }
+  .section-contactme {
+    width: 100%;
+  }
+  .contacts {
+    font-size: 1.8rem;
+  }
+  .icon-text {
+    font-size: 1.8rem;
+  }
+  .main-nav-links {
+    position: absolute;
+    background-color: hsla(0, 0%, 100%, 0.954);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    transform: translateX(100%);
+
+    /* Hiding the nav */
+    opacity: 0;
+    /* 2: make it unaccessible to mouse/keyboard */
+    pointer-events: none;
+    /* 3: hide it from screen readers */
+    visibility: hidden;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .hamburger-container {
+    position: relative;
+  }
+  .nav-open .main-nav-links {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}
+/**********************************/
+/* -----Below 784px (Phones)----- */
+/**********************************/
+@media (max-width: 49em) {
+  .section-hero {
+    padding: 3.2rem 3rem 4rem 3rem;
+    text-align: center;
+  }
+  .header-container {
+    padding: 1.3rem 2.6rem 1.3rem 2.6rem;
+  }
+  .heading-primary {
+    font-size: 3.8rem;
+    font-weight: 700;
+    /* color: #ebfdff; */
+    color: #002529;
+    line-height: 1;
+    padding-bottom: 2.4rem;
+    margin-top: 2rem;
+  }
+  .hero-text {
+    font-size: 2.4rem;
+    padding: 0 5rem 2rem 5rem;
+  }
+  .statement {
+    font-size: 2rem;
+    padding: 10.6rem 3rem 5.6rem 3rem;
+  }
+  .section-aboutme {
+    align-items: center;
+    column-gap: 2.6rem;
+    row-gap: 4rem;
+    padding: 5rem 3rem 0 3rem;
+    width: 90%;
+    margin: 0 auto;
+    border-top: solid 1px hsla(0, 0%, 60%, 0.358);
+  }
+  .aboutme-text {
+    grid-column: 1 / -1;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutme-right {
+    grid-column: 1 / 3;
+    justify-content: center;
+  }
+  .aboutme-img {
+    max-width: 50%;
+  }
+  .button {
+    padding: 1rem 1.3rem;
+    font-size: 1.9rem;
+  }
+  .languages-heading {
+    font-size: 1.8rem;
+  }
+  .section-projects {
+    width: 90%;
+  }
+  .checklist-item {
+    font-size: 1.6rem;
+  }
+  .icon-project-check {
+    width: 2.2rem;
+  }
+  .projects-checklist {
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+    margin-bottom: 9.6rem;
+  }
+  .grid-three-cols {
+    grid-template-columns: 1fr;
+  }
+  .grid {
+    column-gap: 3.4rem;
+  }
+  .footer-heading {
+    font-size: 3.2rem;
+    margin-bottom: 4.2rem;
+    text-align: center;
+  }
+  .section-contactme {
+    width: 100%;
+  }
+  .contacts {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .socials-container a,
+  .socials-container a:link,
+  .socials-container a:visited {
+    justify-content: center;
+  }
+  .icon-text {
+    font-size: 1.8rem;
+  }
+  .section-contactme {
+    display: block;
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem 3rem 1rem;
+  }
+  .contacts {
+    grid-row: 0;
+    justify-self: center;
+  }
+  /* hamburger */
+  .main-nav-links {
+    position: absolute;
+    background-color: hsla(0, 0%, 100%, 0.954);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    transform: translateX(100%);
+
+    /* Hiding the nav */
+    opacity: 0;
+    /* 2: make it unaccessible to mouse/keyboard */
+    pointer-events: none;
+    /* 3: hide it from screen readers */
+    visibility: hidden;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .hamburger-container {
+    position: relative;
+  }
+  .nav-open .main-nav-links {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}
