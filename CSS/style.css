@@ -552,7 +552,16 @@ ion-icon {
   margin: 2.6rem;
   color: #ebfdff;
 }
-
+.modal-title-link:link,
+.modal-title-link:active,
+.modal-title-link:visited {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+}
+.modal-title-link:hover {
+  color: #00707d;
+}
 .modal-text-container {
   grid-row: 1 / 2;
   display: grid;
@@ -580,8 +589,6 @@ ion-icon {
 .icon-close-tribalrites {
   width: 4.4rem;
 }
-.icon-close:hover,
-.icon-close:hover,
 .icon-close:hover {
   cursor: pointer;
 }
