@@ -314,19 +314,22 @@
     position: relative;
   }
   .icon-x {
-    z-index: 3001;
+    /* z-index: 3001; */
   }
   .nav-open .main-nav-links {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
+    position: fixed;
     z-index: 3000;
     /* width: 100%; */
     /* right: 0; */
   }
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
+    position: relative;
+    z-index: 5000;
   }
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
