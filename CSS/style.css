@@ -212,7 +212,7 @@ strong {
 }
 .hero-text {
   font-size: 2.4rem;
-  padding: 0 20rem 2rem 20rem;
+  padding: 0 20rem 6rem 20rem;
   line-height: 1.1;
   color: #333;
 }
@@ -229,7 +229,7 @@ strong {
   line-height: 1.2;
   /* color: #333; */
   text-align: center;
-  padding: 13.6rem 20rem 5.6rem 20rem;
+  padding: 9.6rem 20rem 5.6rem 20rem;
 }
 
 /**********************************/

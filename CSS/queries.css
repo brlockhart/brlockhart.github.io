@@ -6,10 +6,10 @@
     padding: 21.2rem 40rem 15.2rem 40rem;
   }
   .hero-text {
-    padding: 0 18rem 2rem 18rem;
+    padding: 0 18rem 6rem 18rem;
   }
   .statement {
-    padding-top: 15.6rem;
+    padding-top: 11.6rem;
   }
   .projects-checklist {
     grid-template-columns: 5fr 2fr 5fr;
@@ -43,7 +43,7 @@
     grid-template-columns: 3fr 1fr 3fr;
   }
   .statement {
-    padding-top: 17.6rem;
+    padding-top: 13.6rem;
   }
 }
 /**********************************/
@@ -60,11 +60,11 @@
   }
   .hero-text {
     font-size: 1.6rem;
-    padding: 0 17rem 2rem 17rem;
+    padding: 0 17rem 6rem 17rem;
   }
   .statement {
     font-size: 2.8rem;
-    padding: 13.6rem 20rem 5.6rem 20rem;
+    padding: 9.6rem 20rem 5.6rem 20rem;
   }
   .aboutme-text {
     font-size: 1.8rem;
@@ -106,11 +106,11 @@
   }
   .hero-text {
     font-size: 1.6rem;
-    padding: 0 10rem 2rem 10rem;
+    padding: 0 10rem 6rem 10rem;
   }
   .statement {
     font-size: 2rem;
-    padding: 10.6rem 15rem 5.6rem 15rem;
+    padding: 6.6rem 15rem 5.6rem 15rem;
   }
   .section-aboutme {
     align-items: center;
@@ -229,11 +229,11 @@
   }
   .hero-text {
     font-size: 2.4rem;
-    padding: 0 5rem 2rem 5rem;
+    padding: 0 5rem 6rem 5rem;
   }
   .statement {
     font-size: 2rem;
-    padding: 10.6rem 3rem 5.6rem 3rem;
+    padding: 6.6rem 3rem 5.6rem 3rem;
   }
   .section-aboutme {
     align-items: center;
@@ -401,9 +401,15 @@
     font-size: 3.4rem;
   }
   .hero-text {
-    padding: 0 3rem 2rem 3rem;
+    padding: 0 3rem 6rem 3rem;
   }
   .statement {
-    padding: 14.6rem 3rem 5.6rem 3rem;
+    padding: 10.6rem 3rem 5.6rem 3rem;
+  }
+  .card-header-container {
+    margin: 1.3rem 1rem;
+  }
+  .modal-text-container {
+    padding: 0 3.2rem;
   }
 }
