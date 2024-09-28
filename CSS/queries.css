@@ -3,7 +3,7 @@
 /**********************************/
 @media (min-width: 94em) {
   .section-hero {
-    padding: 20.2rem 40rem 14.2rem 40rem;
+    padding: 21.2rem 40rem 14.2rem 40rem;
   }
   .hero-text {
     padding: 0 18rem 2rem 18rem;
@@ -20,7 +20,7 @@
 /**********************************/
 @media (min-width: 128em) {
   .section-hero {
-    padding: 20.2rem 60rem 14.2rem 60rem;
+    padding: 22.2rem 60rem 14.2rem 60rem;
   }
   .projects-checklist {
     grid-template-columns: 3fr 1fr 3fr;
