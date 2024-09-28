@@ -1,11 +1,32 @@
 /**********************************/
+/* -----Above 1500px (LG Desktops)----- */
+/**********************************/
+@media (min-width: 94em) {
+  .section-hero {
+    padding: 20.2rem 40rem 14.2rem 40rem;
+  }
+  .hero-text {
+    padding: 0 18rem 2rem 18rem;
+  }
+}
+/**********************************/
+/* -----Above 2050px (LG Desktops)----- */
+/**********************************/
+@media (min-width: 128em) {
+  .section-hero {
+    padding: 20.2rem 60rem 14.2rem 60rem;
+  }
+  .projects-checklist {
+    grid-template-columns: 3fr 1fr 3fr;
+  }
+}
+/**********************************/
 /* -----Below 1232px (Laptops)----- */
 /**********************************/
 @media (max-width: 77em) {
   .heading-primary {
     font-size: 4.8rem;
     font-weight: 700;
-    /* color: #ebfdff; */
     color: #002529;
     line-height: 1;
     padding-bottom: 2.4rem;
@@ -350,10 +371,13 @@
 /**********************************/
 @media (max-width: 35em) {
   .heading-primary {
-    margin-top: 10rem;
+    margin-top: 15rem;
     font-size: 3.4rem;
   }
   .hero-text {
     padding: 0 3rem 2rem 3rem;
+  }
+  .statement {
+    padding: 14.6rem 3rem 5.6rem 3rem;
   }
 }
