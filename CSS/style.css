@@ -240,7 +240,7 @@ strong {
   grid-template-columns: 3fr 2fr;
   align-items: center;
   column-gap: 5.6rem;
-  padding: 5rem 9.6rem 0 9.6rem;
+  padding: 5rem 9.6rem 3rem 9.6rem;
   /* background-color: #040404; */
   width: 80%;
   margin: 0 auto;
