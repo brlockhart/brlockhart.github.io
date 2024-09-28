@@ -60,7 +60,7 @@ strong {
   margin-bottom: 0;
 } */
 .grid:not(:last-child) {
-  margin-bottom: 9.6rem;
+  margin-bottom: 8.6rem;
 }
 .grid-two-cols {
   grid-template-columns: 1fr 1fr;
@@ -321,7 +321,7 @@ strong {
 }
 .projects-heading {
   text-align: center;
-  padding-top: 9.6rem;
+  padding-top: 4.6rem;
   margin-bottom: 5.6rem;
   color: #ebfdff;
 }
@@ -557,9 +557,8 @@ ion-icon {
   grid-row: 1 / 2;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-column-gap: 8.6rem;
-  /* margin-bottom: 4.2rem; */
-  padding: 0 4.2rem;
+  grid-column-gap: 9.6rem;
+  padding: 0 14.2rem 0 15.2rem;
 }
 .modal-grouping {
   display: grid;
@@ -571,6 +570,7 @@ ion-icon {
 .card-header-container {
   display: flex;
   justify-content: space-between;
+  margin: 1.3rem 5.6rem;
 }
 .icon-close {
   margin: 2.6rem;

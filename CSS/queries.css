@@ -14,6 +14,19 @@
   .projects-checklist {
     grid-template-columns: 5fr 2fr 5fr;
   }
+  .header-container {
+    padding: 1.3rem 14.6rem 1.3rem 14.6rem;
+  }
+  .card-header-container {
+    margin: 3rem 11rem 2rem 11rem;
+  }
+  .modal-text-container {
+    padding: 0 24rem;
+  }
+  .modal-description,
+  .modal-technologies {
+    font-size: 2.2rem;
+  }
 }
 /**********************************/
 /* -----Above 2050px (LG Desktops)----- */
