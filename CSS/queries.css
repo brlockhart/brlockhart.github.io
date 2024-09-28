@@ -313,6 +313,9 @@
   .hamburger-container {
     position: relative;
   }
+  .icon-x {
+    z-index: 3000;
+  }
   .nav-open .main-nav-links {
     opacity: 1;
     pointer-events: auto;
