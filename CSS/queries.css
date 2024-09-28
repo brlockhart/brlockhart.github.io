@@ -232,13 +232,15 @@
     display: block;
   }
   .modal-description {
-    margin-bottom: 1.2rem;
+    margin-top: 3.2rem;
+    margin-bottom: 4.2rem;
   }
   .modal-technologies {
     margin-bottom: 1.2rem;
   }
   .modal-img {
     transform: translateY(-7%) scale(90%);
+    margin-top: 7.2rem;
   }
   .project-heading {
     font-size: 3.2rem;
@@ -341,5 +343,17 @@
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 3rem;
+  }
+}
+/**********************************/
+/* -----Below 560px (SM Phones)----- */
+/**********************************/
+@media (max-width: 35em) {
+  .heading-primary {
+    margin-top: 10rem;
+    font-size: 3.4rem;
+  }
+  .hero-text {
+    padding: 0 3rem 2rem 3rem;
   }
 }
