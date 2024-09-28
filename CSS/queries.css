@@ -9,7 +9,10 @@
     padding: 0 18rem 2rem 18rem;
   }
   .statement {
-    padding-top: 13.6rem;
+    padding-top: 15.6rem;
+  }
+  .projects-checklist {
+    grid-template-columns: 5fr 2fr 5fr;
   }
 }
 /**********************************/
@@ -23,7 +26,7 @@
     grid-template-columns: 3fr 1fr 3fr;
   }
   .statement {
-    padding-top: 13.6rem;
+    padding-top: 17.6rem;
   }
 }
 /**********************************/
