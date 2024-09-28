@@ -314,7 +314,7 @@
     position: relative;
   }
   .icon-x {
-    z-index: 3000;
+    z-index: 3001;
   }
   .nav-open .main-nav-links {
     opacity: 1;
