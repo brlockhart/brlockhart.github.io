@@ -41,6 +41,7 @@ const modalContainer = document.querySelector(".modal-container");
 const modalContainerCatz = document.querySelector(".modal-catz");
 const modalContainerOmnifood = document.querySelector(".modal-omnifood");
 const modalContainerTribalRites = document.querySelector(".modal-tribalrites");
+const modalContainerLaw = document.querySelector(".modal-law");
 
 cardsOpen.forEach((card) => {
   card.addEventListener("click", function () {
@@ -53,8 +54,11 @@ cardsOpen.forEach((card) => {
     } else if (cardId === "modal-omnifood") {
       modalContainerOmnifood.classList.add("card-slide-in");
       body.classList.add("body-overflow");
-    } else {
+    } else if (cardId === "modal-tribalrites") {
       modalContainerTribalRites.classList.add("card-slide-in");
+      body.classList.add("body-overflow");
+    } else {
+      modalContainerLaw.classList.add("card-slide-in");
       body.classList.add("body-overflow");
     }
   });
@@ -69,6 +73,9 @@ cardClose.forEach((iconClose) => {
     } else if (cardId === "icon-close icon-close-omnifood") {
       modalContainerOmnifood.classList.remove("card-slide-in");
       body.classList.remove("body-overflow");
+    } else if (cardId === "icon-close icon-close-law") {
+      modalContainerLaw.classList.remove("card-slide-in");
+      body.classList.remove("body-overflow");
     } else {
       modalContainerTribalRites.classList.remove("card-slide-in");
       body.classList.remove("body-overflow");
@@ -81,6 +88,7 @@ document.addEventListener("keydown", function (event) {
     modalContainerCatz.classList.remove("card-slide-in");
     modalContainerOmnifood.classList.remove("card-slide-in");
     modalContainerTribalRites.classList.remove("card-slide-in");
+    modalContainerLaw.classList.remove("card-slide-in");
   }
 });
 

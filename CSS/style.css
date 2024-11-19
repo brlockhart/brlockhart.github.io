@@ -340,7 +340,9 @@ strong {
   cursor: pointer;
 }
 .card-img {
-  width: 100%;
+  width: 100%; /* Set the width to the desired size */
+  aspect-ratio: 16 / 9; /* Specify the desired aspect ratio */
+  object-fit: cover; /* Ensures the image fills the container without distortion */
   padding-bottom: 3rem;
 }
 .projects-text {
@@ -511,6 +513,7 @@ ion-icon {
 }
 
 .modal-catz,
+.modal-law,
 .modal-omnifood,
 .modal-tribalrites {
   background-color: #222;
@@ -586,7 +589,8 @@ ion-icon {
 }
 .icon-close-catz,
 .icon-close-omnifood,
-.icon-close-tribalrites {
+.icon-close-tribalrites,
+.icon-close-law {
   width: 4.4rem;
 }
 .icon-close:hover {
